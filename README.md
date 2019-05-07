@@ -14,7 +14,7 @@ To run the project and server <br>
 node app.js
 ```
 
-To see results hit the following api with two arguments, fancy and number. Fancy can have the values yes, in which case, the value of the second argument(number) should be a ten digit number between 1111111111 and 9999999999, and no, in which case you do not need to provide the second argument(number). 
+To see results hit the following api a query argument path with the path of the folder where you want to check the number of gifs.
 ```
 http://localhost:3000/?path=<path>
 

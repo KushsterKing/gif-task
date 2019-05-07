@@ -23,12 +23,12 @@ app.get('/', (req, res)=>{
                 count++;
             }
         });
+
         if(count > 0){
             res.status(201).send({"status":"FILE_FOUND","n":count})
         } else {
             res.status(400).send({"status":"FILE_NOT_FOUND","n":0})
         }
-        console.log(count)
     });
 
 });
